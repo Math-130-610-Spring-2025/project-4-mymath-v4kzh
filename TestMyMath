@@ -1,0 +1,19 @@
+/**
+ * Showcases the outputs of the operations from MyMath.java using the inputted values
+ * @author Jedd Catolos
+ * Version 1.0
+ */
+
+public class TestMyMath {
+    public static void main(String args[]) {
+        System.out.println(MyMath.add(3, 5));    // 8.0
+        System.out.println(MyMath.subtract(10, 4)); // 6.0
+        System.out.println(MyMath.multiply(3, 4));  // 12.0
+        System.out.println(MyMath.quotient(8, 2));    // 4.0
+        System.out.println(MyMath.maximum(7, 9));      // 9.0
+        System.out.println(MyMath.minimum(7, 9));      // 7.0
+        System.out.println(MyMath.isEven(10));     // true
+        System.out.println(MyMath.isOdd(11));      // true
+        System.out.println(MyMath);
+    }
+}
