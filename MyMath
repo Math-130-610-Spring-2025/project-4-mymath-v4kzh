@@ -5,21 +5,57 @@
  */
 
 public class MyMath {
+
+    /**
+     * Adds two doubles and returns sum
+     * @param num1 first double
+     * @param num2 second double
+     * @return the sum of num1 and num2
+     */
+
     public static double add(double num1,double num2) {
         return num1 + num2;
     }
+
+    /**
+     * Subtracts the second double from the first double
+     * @param num1 first double
+     * @param num2 second double
+     * @return the difference between num1 and num2
+     */
 
     public static double subtract(double num1,double num2) {
         return num1 - num2;
     }
 
+    /**
+     * Multiples the first double by the second double 
+     * @param num1 first double
+     * @param num2 second double
+     * @return returns the product of num1 and num2
+     */
+
     public static double multiply(double num1,double num2) {
         return num1 * num2;
     }
 
+    /**
+     * Divides the first double by the second double
+     * @param num1 first double
+     * @param num2 second double
+     * @return returns the quotient between num1 and num2
+     */
+
     public static double quotient(double num1,double num2) {
         return num1 / num2;
     }
+
+    /**
+     * Showcases the maximum between the first double and the second double
+     * @param num1 first double
+     * @param num2 second double
+     * @return returns the maximum between num1 and num2
+     */
 
     public static double maximum (double num1, double num2) {
         double maximum;
@@ -31,6 +67,13 @@ public class MyMath {
         return maximum;
     }
 
+    /**
+     * Showcases the minimum between the first double and the second double
+     * @param num1 first double
+     * @param num2 second double
+     * @return returns the minimum between num1 and num2
+     */
+
     public static double minimum (double num1, double num2) {
         double minimum;
         if (num2 > num1) {
@@ -41,9 +84,21 @@ public class MyMath {
         return minimum;
     }
 
+    /**
+     * Showcases if the first double is even
+     * @param num1 first double
+     * @return returns true / false if num1 is even or not
+     */
+
     public static boolean isEven(double num1) {
         return num1%2 == 0;
     }
+
+    /**
+     * Showcases if the first double is od
+     * @param num1 first double
+     * @return returns true / false if num1 is odd or not
+     */
 
     public static boolean isOdd(double num1) {
         return num1%2 != 0;
